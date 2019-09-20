@@ -1,24 +1,29 @@
-# README
+<h2> Simple api using Ruby on Rails framework, JWT authorization and cors settings. </h2>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h3>Things you may want to cover: </h3>
+```bash
+$ ionic cordova platform add ios
+$ ionic cordova run ios
+```
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
+* System dependencies We recommend using Postman to test some API routes.
 
 * Configuration
 
-* Database creation
+bundle install or bundle update
+
+yarn install
+
+* Database creation 
+
+rake db:create
 
 * Database initialization
 
-* How to run the test suite
+rake db:migrate
 
-* Services (job queues, cache servers, search engines, etc.)
+* Routes
 
-* Deployment instructions
+rake routes -> list all routes in the project
 
-* ...
