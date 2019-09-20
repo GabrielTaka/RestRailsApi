@@ -17,6 +17,7 @@
 ```
 
 <h4> DataBase creation </h4>
+
 ```console
   rake db:create
 ```
